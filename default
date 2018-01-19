@@ -1,0 +1,16 @@
+server{
+
+		root /home/mayank/Desktop/myprojects/edwisorcourse/level5/Assignment5/directory-asoiaf;
+		index index.html;
+
+			error_page 404 /errorpages/404error.html;
+			location = errorpages/404error.html{
+							internal;
+					}
+
+						error_page 500 /errorpages/500error.html;
+						location = errorpages/500error.html{
+							internal;
+					}
+
+}
