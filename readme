@@ -1,0 +1,5 @@
+
+
+configured nginx default config file in sites-available to host project created in Assingment 5
+on local host.
+Also changed the default 404 and 500 pages.
